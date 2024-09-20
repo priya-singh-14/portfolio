@@ -1,10 +1,12 @@
 import React from 'react';
 import './header.css';
 import bo from './bo.jpg';
+import HomeButton from './homebutton';
 
 const Header = () => {
   return (
     <header className="header">
+    <HomeButton />
       <div className='text-section'>
       <div className='large'>
       <p>Hi, I’m Priya. </p>
@@ -14,6 +16,7 @@ const Header = () => {
      <div className='img-section'>
      <img src={bo} alt="img"></img>
      </div>
+     <div class="blur-footer"></div>
     </header>
   );
 };

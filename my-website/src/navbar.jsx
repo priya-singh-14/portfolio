@@ -1,6 +1,5 @@
-// src/components/Navbar.jsx
 import React from 'react';
-import './navbar.css'; // The CSS will handle the ellipse and hover effect
+import './navbar.css'; 
 
 const Navbar = () => {
   return (

@@ -6,6 +6,24 @@
   background-color: #faf9f8; /* Background color, adjust as needed */
 }
 
+.button {
+  position: absolute;
+  top: 20px;      /* Adjust the distance from the top of the screen */
+  left: 20px;    /* Adjust the distance from the right of the screen */
+  width: 30px;    /* Set width of the button */
+  height: 30px;   /* Set height of the button (making it a square) */
+  background-color: #aabdde; /* Background color of the button */
+  border-radius: 7px; /* Rounds the edges */
+  display: flex;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+  background-color: #555;  /* Change color on hover */
+  transform: scale(1.1);   /* Scale button on hover for effect */
+}
+
 .text-section {
   flex: 1; /* Takes up the left side space */
   padding: 250px 50px; /* Add padding for spacing */
@@ -33,4 +51,17 @@
 .image-section img {
   max-width: 100%;
   height: auto; /* Ensures the image scales proportionally */
+}
+
+header::after {
+  content: ''; 
+  position: fixed; /* Fixes the pseudo-element relative to the viewport */
+  left: 0; /* Aligns the element to the left edge of the viewport */
+  bottom: 0; /* Aligns the element to the bottom of the viewport */
+  width: 100%; /* Ensures the element spans the entire width of the viewport */
+  height: 3%; /* Adjust the height to control the area of the blur effect */
+  background-color: #7195d4;
+  filter: blur(50px); /* Adjust the blur intensity */
+  z-index: 4; /* Ensures the blur is above the background but below content */
+  pointer-events: none; /* Allows clicks to pass through to elements underneath */
 }

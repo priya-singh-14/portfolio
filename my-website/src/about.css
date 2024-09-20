@@ -1,14 +1,21 @@
+
+.about {
+    background-color: #faf9f8; /* Background color, adjust as needed */
+}
+
 .headshot img {
-    width: 600px;
+    width: 500px;
     height: auto;
     padding: 30px 40px;
+    border-radius: 80px; /* Creates the ellipse shape */
 }
 
 .headshot-background {
-    background-color: rgb(64, 108, 169); /* The white ellipse */
-    width: 600px; /* Width of the ellipse-like shape */
-    height: 800px; /* Adjust the height of the ellipse */
+    background-color: rgb(160, 191, 234); /* The white ellipse */
+    border-radius: 50px; /* Creates the ellipse shape */
+    width: 500px; /* Width of the ellipse-like shape */
+    height: 660px; /* Adjust the height of the ellipse */
     display: flex;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    margin: 10px;
+    margin: 40px;
   }
