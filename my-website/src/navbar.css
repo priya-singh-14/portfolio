@@ -3,8 +3,11 @@
   display: flex;
   justify-content: center;
   background-color: transparent;
-  margin: 0; /* Ensure no margin */
-  padding: 0
+  position: fixed;  /* Make the navbar fixed */
+  bottom: 0;        /* Stick to the bottom */
+  left: 0;          /* Start from the left side of the screen */
+  width: 100%;      /* Span the entire width of the viewport */
+  z-index: 999;     /* Ensure it stays on top of other elements */
 }
 
 .ellipse-background {

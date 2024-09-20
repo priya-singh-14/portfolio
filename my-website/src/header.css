@@ -31,6 +31,6 @@
 }
 
 .image-section img {
-  max-width: 00%;
+  max-width: 100%;
   height: auto; /* Ensures the image scales proportionally */
 }

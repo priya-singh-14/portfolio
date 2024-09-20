@@ -1,11 +1,14 @@
 import React from 'react';
 import './about.css';
+import hs from './hs.JPG';
 
 const About = () => {
     return ( 
     <header className="about">
-    <div className='im'>
-        <h1>Hello</h1>
+    <div className="headshot-background">
+    <div className='headshot'>
+        <img src={hs} alt='headshot'></img>
+   </div>
    </div>
   </header>
 );
