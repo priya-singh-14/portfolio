@@ -11,7 +11,7 @@
 }
 
 .ellipse-background {
-  background-color: white; /* The white ellipse */
+  background-color: #faf9f8;; /* The white ellipse */
   width: 600px; /* Width of the ellipse-like shape */
   height: 60px; /* Adjust the height of the ellipse */
   border-radius: 50px; /* Creates the ellipse shape */
