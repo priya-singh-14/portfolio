@@ -1,19 +1,36 @@
 .header {
-    text-align: center;
-    margin: 40px 0;
-  }
-  
-  .header h1 {
-    font-family: 'Cormorant Garamond', serif;
-    font-style: italic;
-    font-size: 2.5rem;
-    color: #333;
-  }
-  
-  .header p {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 1.25rem;
-    color: #666;
-    margin-top: 10px;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh; /* Takes full height of the viewport */
+  background-color: #faf9f8; /* Background color, adjust as needed */
+}
+
+.text-section {
+  flex: 1; /* Takes up the left side space */
+  padding: 250px 50px; /* Add padding for spacing */
+  max-width: 50%; /* Limits text section to half the screen */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center the text and navbar */
+  margin: 0;
+}
+
+.text-section .large p {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: normal;
+  font-size: 4.5rem;
+  margin-bottom: 10px;
+}
+
+.text-section p {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.5rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.image-section img {
+  max-width: 00%;
+  height: auto; /* Ensures the image scales proportionally */
+}

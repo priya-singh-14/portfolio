@@ -2,12 +2,14 @@
 .navbar {
   display: flex;
   justify-content: center;
-  padding: 410px 0; /* Padding to space it from the top of the page */
+  background-color: transparent;
+  margin: 0; /* Ensure no margin */
+  padding: 0
 }
 
 .ellipse-background {
   background-color: white; /* The white ellipse */
-  width: 50%; /* Width of the ellipse-like shape */
+  width: 600px; /* Width of the ellipse-like shape */
   height: 60px; /* Adjust the height of the ellipse */
   border-radius: 50px; /* Creates the ellipse shape */
   display: flex;
@@ -56,5 +58,4 @@
   color: #27262b; /* Darken the text on hover */
   font-size: 25px;
   transition: all 0.9s ease;
-
 }
