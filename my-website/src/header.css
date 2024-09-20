@@ -59,9 +59,9 @@ header::after {
   left: 0; /* Aligns the element to the left edge of the viewport */
   bottom: 0; /* Aligns the element to the bottom of the viewport */
   width: 100%; /* Ensures the element spans the entire width of the viewport */
-  height: 3%; /* Adjust the height to control the area of the blur effect */
-  background-color: #7195d4;
-  filter: blur(50px); /* Adjust the blur intensity */
-  z-index: 4; /* Ensures the blur is above the background but below content */
+  height: 2%; /* Adjust the height to control the area of the blur effect */
+  background-color: #4d6fa9;
+  filter: blur(60px); /* Adjust the blur intensity */
+  z-index: 3; /* Ensures the blur is above the background but below content */
   pointer-events: none; /* Allows clicks to pass through to elements underneath */
 }

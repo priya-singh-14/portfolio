@@ -15,8 +15,8 @@ const Header = () => {
      </div>
      <div className='img-section'>
      <img src={bo} alt="img"></img>
-     </div>
      <div class="blur-footer"></div>
+     </div>
     </header>
   );
 };
