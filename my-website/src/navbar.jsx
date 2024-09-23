@@ -1,19 +1,20 @@
-import React from 'react';
+import { Link } from 'react-router-dom';
 import './navbar.css'; 
 
-const Navbar = () => {
+function Navbar() {
   return (
-    <nav className="navbar">
+    <div className="navbar">
       <div className="ellipse-background">
         <ul className="nav-links">
-          <li><a href="about.jsx">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><Link to="/about">About</Link></li>
+          <li><Link to="/projects">Projects</Link></li>
+          <li><Link to="/gallery">Gallery</Link></li>
+          <li><Link to="/underconstruction">Contact</Link></li>
+          {/* put function to copy email to clipboard here */}
         </ul>
       </div>
-    </nav>
+    </div>
   );
-};
+}
 
 export default Navbar;

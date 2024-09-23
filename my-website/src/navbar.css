@@ -1,24 +1,23 @@
-/* src/components/Navbar.css */
 .navbar {
   display: flex;
   justify-content: center;
   background-color: transparent;
-  position: fixed;  /* Make the navbar fixed */
-  bottom: 0;        /* Stick to the bottom */
-  left: 0;          /* Start from the left side of the screen */
-  width: 100%;      /* Span the entire width of the viewport */
-  z-index: 999;     /* Ensure it stays on top of other elements */
+  position: fixed; 
+  bottom: 0;       
+  left: 0;       
+  width: 100%;     
+  z-index: 999;   
 }
 
 .ellipse-background {
-  background-color: #faf9f8;; /* The white ellipse */
-  width: 600px; /* Width of the ellipse-like shape */
-  height: 60px; /* Adjust the height of the ellipse */
-  border-radius: 50px; /* Creates the ellipse shape */
+  background-color: #faf9f8;; 
+  width: 600px; 
+  height: 60px; 
+  border-radius: 50px; 
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
 }
 
 .nav-links {
@@ -46,10 +45,10 @@
   left: 50%;
   width: 0;
   height: 0;
-  background-color: rgba(144, 127, 127, 0.2); /* Darker ellipse on hover */
+  background-color: rgba(144, 127, 127, 0.2); 
   border-radius: 50px;
   transition: all 0.3s ease;
-  transform: translate(-50%, -50%); /* Center the ellipse behind the text */
+  transform: translate(-50%, -50%);
 }
 
 .nav-links a:hover::before {
@@ -58,7 +57,7 @@
 }
 
 .nav-links a:hover {
-  color: #27262b; /* Darken the text on hover */
+  color: #27262b; 
   font-size: 25px;
   transition: all 0.9s ease;
 }

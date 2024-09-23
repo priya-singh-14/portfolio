@@ -1,12 +1,18 @@
 import React from 'react';
-import './header.css'; 
-
+import { useNavigate } from 'react-router-dom';
 
 const HomeButton = () => {
+  const navigate = useNavigate();
+
+  const goHome = () => {
+    navigate('/');
+  };
+
   return (
     <div className='button'>
-    <a href="index.html" class="home-button"></a>
-</div>
+    <button onClick={goHome} className="home-button">
+    </button>
+    </div>
   );
 };
 
