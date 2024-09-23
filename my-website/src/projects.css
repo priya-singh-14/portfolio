@@ -1,0 +1,29 @@
+* {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.all-projects .heading {
+    background-color: #faf9f8; 
+    color: #666;
+    margin-top: 80px;
+    margin-left: 60px;
+  }
+
+
+.all-projects h1 {
+    color: #666;
+    font-style: normal;
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+  }
+
+  .all-projects h2, p {
+    color: #666;
+    font-style: normal;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+.project-grid {
+    padding: 70px;
+}

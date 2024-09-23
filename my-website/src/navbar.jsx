@@ -10,7 +10,7 @@ function Navbar() {
           <li><Link to="/projects">Projects</Link></li>
           <li><Link to="/gallery">Gallery</Link></li>
           <li><Link to="/underconstruction">Contact</Link></li>
-          {/* put function to copy email to clipboard here */}
+          {/* put function to copy email to clipboard above */}
         </ul>
       </div>
     </div>
