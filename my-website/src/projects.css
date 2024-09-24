@@ -5,25 +5,57 @@
 .all-projects .heading {
     background-color: #faf9f8; 
     color: #666;
-    margin-top: 80px;
-    margin-left: 60px;
+    margin-top: 100px;
+    margin-left: 80px;
   }
 
-
-.all-projects h1 {
+  .all-projects h1 {
     color: #666;
     font-style: normal;
     font-size: 3.5rem;
     margin-bottom: 10px;
   }
 
-  .all-projects h2, p {
+  .all-projects .large p {
+    color: #666;
+    font-style: normal;
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+  }
+
+  .all-projects p {
     color: #666;
     font-style: normal;
     font-size: 1.5rem;
     margin-bottom: 10px;
   }
-  
-.project-grid {
-    padding: 70px;
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  justify-items: center;
+  padding: 20px;
+}
+
+.project-item {
+  text-align: center;
+}
+
+.project-item img {
+  width: 100%;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+}
+
+.project-item img:hover {
+  transform: scale(1.05);
+}
+
+.custom-hr {
+  border: none; /* Remove default border */
+  height: 1px; /* Adjust thickness */
+  background-color: #dbdbdb; 
+  width: 80%; /* Set line width */
+  margin: 50px auto; /* Center the line with some margin */
 }
