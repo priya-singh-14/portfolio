@@ -1,4 +1,3 @@
-// src/components/Projects.jsx
 import React from 'react';
 import './projects.css';
 
@@ -8,20 +7,14 @@ function Gallery() {
         <div className='heading'>
         <div className='large'>
       <p>Webpages </p>
+      <hr class="custom-hr" />
       <p>UX/UI </p>
+      <hr class="custom-hr" />
       <p>Fine Art </p>
       </div>
-      </div>
-      <hr class="custom-hr" />
-    <div className="projects-container">
-    <div className="project">
-      <img src="path-to-image1" alt="Project 1" />
-      <h2>Candid Candies</h2>
-    </div>
-    {/* Repeat for other projects */}
   </div>
   </div>
   );
 }
 
-export default Projects;
+export default Gallery;
