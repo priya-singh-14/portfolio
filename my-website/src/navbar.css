@@ -61,3 +61,15 @@
   font-size: 25px;
   transition: all 0.9s ease;
 }
+
+.contact-button {
+  transition: color 0.3s ease, font-size 0.3s ease, opacity 0.5s ease; /* Add opacity transition */
+}
+
+.contact-button.fade-out {
+  opacity: 0.3; 
+}
+
+.contact-button.fade-in {
+  opacity: 1; 
+}
