@@ -7,7 +7,7 @@
     width: 500px;
     height: auto;
     padding: 30px 40px;
-    border-radius: 80px; 
+    border-radius: 80px;
 }
 
 .headshot-background {
@@ -23,3 +23,53 @@
   html {
     scroll-behavior: smooth;
 }
+
+a {
+    width: 100%;
+}
+
+.btn-left {
+    position: absolute;
+    margin-top: 30px;
+    left: 160px;
+    width: 40px;    
+    height: 40px;  
+    background-color: #fcd2b4; 
+    border-radius: 7px; 
+    border: none;
+    display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    z-index: 1000;
+  }
+
+  .btn-right {
+    position: absolute;
+    margin-top: 30px;
+    left: 400px;
+    width: 40px;    
+    height: 40px;  
+    background-color: #fcd2b4; 
+    border-radius: 7px; 
+    border: none;
+    display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    z-index: 1000;
+  }
+
+  
+  .btn-left:hover, .btn-right:hover {
+    background-color: #555; 
+    transform: scale(1.1);  
+  }
+
+  .fill {
+    background-color: #faf9f8; 
+    border-radius: 50px; 
+    width: 500px;
+    height: 140px;
+    display: flex;
+    margin: 40px;
+  }
+ 

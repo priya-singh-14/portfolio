@@ -6,7 +6,9 @@ import z3 from './assets/z3.png';
 import l1 from './assets/l1.png';
 import sv from './assets/sv.png';
 import p from './assets/pink.jpg';
-import g from './assets/grey.jpeg';
+import g from './assets/grey.jpg';
+import gre from './assets/green.jpg';
+import lg from './assets/lg.jpg';
 
 function Projects() {
   return (
@@ -36,21 +38,21 @@ function Projects() {
     <div className="project-item">
    <div class="image-container">
       <img src={ms1} alt="Project 2" class="project-img"/>
-      <img src={p} alt="Static Image" class="static-img" />
+      <img src={gre} alt="Static Image" class="static-img" />
     </div>
     <h2>Minesweeper</h2>
     </div>
     <div className="project-item">
    <div class="image-container">
       <img src={z3} alt="Project 2" class="project-img"/>
-      <img src={p} alt="Static Image" class="static-img" />
+      <img src={g} alt="Static Image" class="static-img" />
     </div>
     <h2>ZType</h2>
     </div>
     <div className="project-item">
    <div class="image-container">
       <img src={l1} alt="Project 2" class="project-img"/>
-      <img src={p} alt="Static Image" class="static-img" />
+      <img src={lg} alt="Static Image" class="static-img" />
     </div>
     <h2>Light 'Em All</h2>
     </div>

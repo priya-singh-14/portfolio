@@ -44,8 +44,15 @@
 
 .image-container {
   position: relative;
-  width: 400px; 
-  height: 400px;
+  width: 380px; 
+  height: 380px;
+}
+
+.image-container:hover {
+  transform: scale(1.05);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  border-radius: 30px;
+  box-shadow: 4px 10px 40px rgba(97, 154, 255, 0.3);
 }
 
 .static-img {
@@ -53,6 +60,7 @@
   height: 100%;
   border-radius: 30px;
   object-fit: cover; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .project-img {
@@ -62,13 +70,8 @@
   width: 75%; 
   height: auto; 
   transform: translate(-50%, -50%); 
-  border-radius: 30px;
+  border-radius: 14px;
   z-index: 1; 
-}
-
-.project-img:hover {
-  scale: 1.05;
-  transition: 0.4, ease;
 }
 
 .custom-hr {
