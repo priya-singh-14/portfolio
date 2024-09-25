@@ -33,7 +33,7 @@
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
+  gap: 20px;
   justify-items: center;
   padding: 20px;
 }
@@ -42,20 +42,52 @@
   text-align: center;
 }
 
-.project-item img {
-  width: 100%;
-  border-radius: 20px;
-  transition: transform 0.3s ease;
+.image-container {
+  position: relative;
+  width: 400px; 
+  height: 400px;
 }
 
-.project-item img:hover {
-  transform: scale(1.05);
+.static-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  object-fit: cover; 
+}
+
+.project-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 75%; 
+  height: auto; 
+  transform: translate(-50%, -50%); 
+  border-radius: 30px;
+  z-index: 1; 
+}
+
+.project-img:hover {
+  scale: 1.05;
+  transition: 0.4, ease;
 }
 
 .custom-hr {
-  border: none; /* Remove default border */
-  height: 1px; /* Adjust thickness */
+  border: none; 
+  height: 1px; 
   background-color: #dbdbdb; 
-  width: 80%; /* Set line width */
-  margin: 50px auto; /* Center the line with some margin */
+  width: 80%;
+  margin: 50px auto;
+}
+
+.all-projects::after {
+  content: ''; 
+  position: fixed; 
+  left: 0; 
+  bottom: 0;
+  width: 100%; 
+  height: 2%; 
+  background-color: #a9734d;
+  filter: blur(60px); 
+  z-index: 3;
+  pointer-events: none; 
 }

@@ -1,11 +1,11 @@
-// src/components/Projects.jsx
 import React from 'react';
 import './projects.css';
 import h1 from './assets/h1.png';
-import ms1 from './assets/ms2.png';
-import z1 from './assets/z1.png';
+import ms1 from './assets/ms1.png';
+import z3 from './assets/z3.png';
 import l1 from './assets/l1.png';
 import sv from './assets/sv.png';
+import p from './assets/pink.jpg';
 
 
 function Projects() {
@@ -20,28 +20,42 @@ function Projects() {
       <hr class="custom-hr" />
     <div className="projects-grid">
     <div className="project-item">
-      <img src={h1} alt="Project 1" />
+    <div class="image-container">
+      <img src={h1} alt="Project 1" class="project-img"/>
+      <img src={p} alt="Static Image" class="static-img" />
+      </div>
       <h2>Candid Candies</h2>
     </div>
     <div className="project-item">
-      <img src={sv} alt="Project 3" />
-      <h2>StockView</h2>
+    <div class="image-container">
+      <img src={sv} alt="Project 3" class="project-img"/>
+      <img src={p} alt="Static Image" class="static-img" />
+    </div>
+    <h2>StockView</h2>
     </div>
     <div className="project-item">
-      <img src={ms1} alt="Project 2" />
-      <h2>Minesweeper</h2>
+   <div class="image-container">
+      <img src={ms1} alt="Project 2" class="project-img"/>
+      <img src={p} alt="Static Image" class="static-img" />
+    </div>
+    <h2>Minesweeper</h2>
     </div>
     <div className="project-item">
-      <img src={z1} alt="Project 3" />
-      <h2>ZType</h2>
+   <div class="image-container">
+      <img src={z3} alt="Project 2" class="project-img"/>
+      <img src={p} alt="Static Image" class="static-img" />
+    </div>
+    <h2>ZType</h2>
     </div>
     <div className="project-item">
-      <img src={l1} alt="Project 3" />
-      <h2>LightEmAll</h2>
+   <div class="image-container">
+      <img src={l1} alt="Project 2" class="project-img"/>
+      <img src={p} alt="Static Image" class="static-img" />
     </div>
-    {/* Repeat for other projects */}
-  </div>
-  </div>
+    <h2>Light 'Em All</h2>
+    </div>
+    </div>
+    </div>
   );
 }
 
