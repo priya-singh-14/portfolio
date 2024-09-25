@@ -1,6 +1,12 @@
 // src/components/Projects.jsx
 import React from 'react';
 import './projects.css';
+import h1 from './assets/h1.png';
+import ms1 from './assets/ms2.png';
+import z1 from './assets/z1.png';
+import l1 from './assets/l1.png';
+import sv from './assets/sv.png';
+
 
 function Projects() {
   return (
@@ -14,23 +20,23 @@ function Projects() {
       <hr class="custom-hr" />
     <div className="projects-grid">
     <div className="project-item">
-      <img src="assets/z1.png" alt="Project 1" />
+      <img src={h1} alt="Project 1" />
       <h2>Candid Candies</h2>
     </div>
     <div className="project-item">
-      <img src="path-to-image3" alt="Project 3" />
+      <img src={sv} alt="Project 3" />
       <h2>StockView</h2>
     </div>
     <div className="project-item">
-      <img src="path-to-image2" alt="Project 2" />
+      <img src={ms1} alt="Project 2" />
       <h2>Minesweeper</h2>
     </div>
     <div className="project-item">
-      <img src="path-to-image3" alt="Project 3" />
+      <img src={z1} alt="Project 3" />
       <h2>ZType</h2>
     </div>
     <div className="project-item">
-      <img src="path-to-image3" alt="Project 3" />
+      <img src={l1} alt="Project 3" />
       <h2>LightEmAll</h2>
     </div>
     {/* Repeat for other projects */}
