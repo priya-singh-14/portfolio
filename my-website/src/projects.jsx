@@ -6,7 +6,7 @@ import z3 from './assets/z3.png';
 import l1 from './assets/l1.png';
 import sv from './assets/sv.png';
 import p from './assets/pink.jpg';
-
+import g from './assets/grey.jpeg';
 
 function Projects() {
   return (
@@ -29,7 +29,7 @@ function Projects() {
     <div className="project-item">
     <div class="image-container">
       <img src={sv} alt="Project 3" class="project-img"/>
-      <img src={p} alt="Static Image" class="static-img" />
+      <img src={g} alt="Static Image" class="static-img" />
     </div>
     <h2>StockView</h2>
     </div>
