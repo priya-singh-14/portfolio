@@ -14,7 +14,7 @@ function Projects() {
       <hr class="custom-hr" />
     <div className="projects-grid">
     <div className="project-item">
-      <img src="path-to-image1" alt="Project 1" />
+      <img src="assets/z1.png" alt="Project 1" />
       <h2>Candid Candies</h2>
     </div>
     <div className="project-item">
