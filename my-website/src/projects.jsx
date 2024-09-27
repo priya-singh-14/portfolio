@@ -26,35 +26,36 @@ function Projects() {
       <img src={h1} alt="Project 1" class="project-img"/>
       <img src={p} alt="Static Image" class="static-img" />
       </div>
-      <h2>Candid Candies</h2>
+      <p>Candid Candies</p>
     </div>
+
     <div className="project-item">
     <div class="image-container">
       <img src={sv} alt="Project 3" class="project-img"/>
       <img src={g} alt="Static Image" class="static-img" />
     </div>
-    <h2>StockView</h2>
+    <p>StockView</p>
     </div>
     <div className="project-item">
    <div class="image-container">
       <img src={ms1} alt="Project 2" class="project-img"/>
       <img src={gre} alt="Static Image" class="static-img" />
     </div>
-    <h2>Minesweeper</h2>
+    <p>Minesweeper</p>
     </div>
     <div className="project-item">
    <div class="image-container">
       <img src={z3} alt="Project 2" class="project-img"/>
       <img src={g} alt="Static Image" class="static-img" />
     </div>
-    <h2>ZType</h2>
+    <p>ZType</p>
     </div>
     <div className="project-item">
    <div class="image-container">
       <img src={l1} alt="Project 2" class="project-img"/>
       <img src={lg} alt="Static Image" class="static-img" />
     </div>
-    <h2>Light 'Em All</h2>
+    <p>Light 'Em All</p>
     </div>
     </div>
     </div>
