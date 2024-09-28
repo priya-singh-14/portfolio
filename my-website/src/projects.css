@@ -79,15 +79,24 @@
   margin: 50px auto;
 }
 
-
-
 .subproject-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  border-radius: 30px;
+  border-radius: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 60px;
+}
+
+.subproject-img-tall {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 60px;
 }
 
 .start p {
@@ -102,15 +111,6 @@
 .project-text-section p {
   font-size: 1.5rem;
   width: 45%;
-}
-
-.bottom-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
-  border-radius: 30px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .info-block {
