@@ -4,7 +4,7 @@
 }
 
 .headshot img {
-    width: 500px;
+    width: 450px;
     height: auto;
     padding: 30px 40px;
     border-radius: 80px;
@@ -13,8 +13,8 @@
 .headshot-background {
     background-color: rgb(160, 191, 234);
     border-radius: 50px; 
-    width: 500px;
-    height: 660px;
+    width: 450px;
+    height: 600px;
     display: flex;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
     margin: 40px;
@@ -22,23 +22,26 @@
 
   html {
     scroll-behavior: smooth;
-}
+  }
 
 a {
     width: 100%;
+    text-decoration: none;
+    color: #666;
+    margin: 6px;
+    text-align: center;
+    font-size: 1.34rem;
 }
 
 .btn-left {
     position: absolute;
     margin-top: 30px;
-    left: 160px;
-    width: 40px;    
+    left: 1260px;
+    width: 80px;    
     height: 40px;  
-    background-color: #fcd2b4; 
-    border-radius: 7px; 
+    border-radius: 20px; 
     border: none;
     display: flex;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     transition: background-color 0.3s ease, transform 0.3s ease;
     z-index: 1000;
   }
@@ -46,14 +49,12 @@ a {
   .btn-right {
     position: absolute;
     margin-top: 30px;
-    left: 400px;
-    width: 40px;    
+    left: 1400px;
+    width: 80px;    
     height: 40px;  
-    background-color: #fcd2b4; 
-    border-radius: 7px; 
+    border-radius: 20px; 
     border: none;
     display: flex;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     transition: background-color 0.3s ease, transform 0.3s ease;
     z-index: 1000;
   }
@@ -64,11 +65,17 @@ a {
     transform: scale(1.1);  
   }
 
+  a:hover {
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff
+}
+
   .fill {
     background-color: #faf9f8; 
     border-radius: 50px; 
-    width: 500px;
-    height: 140px;
+    width: auto;
+    height: 50px;
     display: flex;
     margin: 40px;
   }

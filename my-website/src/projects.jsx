@@ -14,6 +14,7 @@ import lg from './assets/lg.jpg';
 function Projects() {
   return (
     <div className='all-projects'>
+     
         <div className='heading'>
         <div className='large'>
       <p>Projects </p>
