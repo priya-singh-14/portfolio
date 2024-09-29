@@ -11,8 +11,7 @@ function Minesweeper() {
         <p>Minesweeper</p>
        <img src={m4} alt="Project 1" className="subproject-img"/>
        <div className="project-text-section">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium feugiat mauris, et tristique lorem malesuada at. Nam cursus id tellus at dapibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin pretium viverra mi, a sodales velit tincidunt egestas. Pellentesque est urna, aliquet ac lacus ut, faucibus fermentum urna. Phasellus enim nibh, interdum ac ante vel, imperdiet congue risus. Nam vulputate fringilla mi quis blandit. Praesent hendrerit fringilla interdum. Cras iaculis ultricies scelerisque. Proin venenatis odio sit amet tincidunt bibendum. Fusce eget augue dignissim, viverra odio rutrum, tincidunt ex.</p>
-        <hr class="custom-hr" />
+       <p>This Minesweeper program is a Java-based rendition of the classic game, challenging players to uncover all safe cells while avoiding hidden mines. The program’s interface allows users to click through a 14x18 cell grid, flagging potential mines with essential features like randomized mine placement for every game, game state checks for winning and losing, and a visually bright front-end built in the Big Bang Library. The program supports restarting, and flood clicking in empty spaces, similar to the original game. Available on Github upon request.</p>        <hr class="custom-hr" />
         <div className="info-block">
 
         <div className="project-info-left">

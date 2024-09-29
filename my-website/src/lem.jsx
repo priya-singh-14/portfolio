@@ -7,11 +7,10 @@ import "./projects.css";
 function LightEm() {
     return (
         <div className="start">
-        <p>Candid Candies</p>
+        <p>Light 'Em All</p>
        <img src={l2} alt="Project 1" className="subproject-img-tall"/>
        <div className="project-text-section">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium feugiat mauris, et tristique lorem malesuada at. Nam cursus id tellus at dapibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin pretium viverra mi, a sodales velit tincidunt egestas. Pellentesque est urna, aliquet ac lacus ut, faucibus fermentum urna. Phasellus enim nibh, interdum ac ante vel, imperdiet congue risus. Nam vulputate fringilla mi quis blandit. Praesent hendrerit fringilla interdum. Cras iaculis ultricies scelerisque. Proin venenatis odio sit amet tincidunt bibendum. Fusce eget augue dignissim, viverra odio rutrum, tincidunt ex.</p>
-        <hr class="custom-hr" />
+       <p>Light 'Em All is a game built in Java where the player must rotate electrical wire tiles on a grid to connect all nodes and illuminate the entire board. The objective is to direct the flow of electricity from a power source to light up as many tiles as possible, using the arrow keys to move the power source around. This version uses Binary Search and Kruskel’s Algorithm to first develop a path to connect all the tiles, before generating the puzzle by turning each tile a random number of times. The grid is randomized on every generation and the program supports time counting, enhanced graphics with implemented gradient, score counting, and a restart functionality. Available on Github upon request. </p>        <hr class="custom-hr" />
         <div className="info-block">
 
         <div className="project-info-left">

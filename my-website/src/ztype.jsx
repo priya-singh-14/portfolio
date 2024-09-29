@@ -9,8 +9,7 @@ function ZType() {
         <p>ZType</p>
        <img src={z3} alt="Project 1" className="subproject-img-tall"/>
        <div className="project-text-section">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium feugiat mauris, et tristique lorem malesuada at. Nam cursus id tellus at dapibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin pretium viverra mi, a sodales velit tincidunt egestas. Pellentesque est urna, aliquet ac lacus ut, faucibus fermentum urna. Phasellus enim nibh, interdum ac ante vel, imperdiet congue risus. Nam vulputate fringilla mi quis blandit. Praesent hendrerit fringilla interdum. Cras iaculis ultricies scelerisque. Proin venenatis odio sit amet tincidunt bibendum. Fusce eget augue dignissim, viverra odio rutrum, tincidunt ex.</p>
-        <hr class="custom-hr" />
+       <p>This ZType program built in Java is a typing-based game that tests players' typing speed and accuracy. In this game, players must stop the falling words from reaching the bottom of the screen by typing the words as they appear on-screen. The difficulty escalates as the number and complexity of words increase, and our implementation produces randomly generated strings of varying length, score tracking, a visually-interesting front-end that resembles arcade-style gaming and restarting functionality. Built in collaboration with Rusheel Sharma. Available on Github upon request. </p>        <hr class="custom-hr" />
         <div className="info-block">
 
         <div className="project-info-left">
