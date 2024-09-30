@@ -41,9 +41,9 @@ const About = () => {
 
       <motion.div 
         className='btn-left'
-        initial={{ opacity: 0, y: 5 }}
+        initial={{ opacity: 0, y: 0 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1, delay: 0.4 }}  /* Delayed entry */
+        transition={{ duration: 1, delay: 0.9 }}  /* Delayed entry */
         >
    <a href="https://github.com/priya-singh-14" target="_blank" rel="noopener noreferrer">Github</a>
    
@@ -51,9 +51,9 @@ const About = () => {
 
    <motion.div 
         className='btn-right'
-        initial={{ opacity: 0, y: 5 }}
+        initial={{ opacity: 0, y: 0 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1, delay: 0.4 }}  /* Delayed entry */
+        transition={{ duration: 1, delay: 0.9 }}  /* Delayed entry */
         >
    <a href={resume} target="_blank" rel="noopener noreferrer">Resume</a>
    </motion.div>
