@@ -10,6 +10,7 @@ import p from './assets/pink.jpg';
 import g from './assets/grey.jpg';
 import gre from './assets/green.jpg';
 import lg from './assets/lg.jpg';
+import {motion} from 'framer-motion';
 
 function Projects() {
   return (
@@ -22,7 +23,13 @@ function Projects() {
       <p>My collection of academic work and personal projects in full-stack development</p>
       </div>
       <hr class="custom-hr" />
-    <div className="projects-grid">
+
+      <motion.div 
+      className='projects-grid'
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, delay: 0.4 }}  /* Delayed entry */
+        >
     <div className="project-item">
     <Link to="/candy">
     <div class="image-container">
@@ -64,7 +71,7 @@ function Projects() {
     </div></Link>
     <p>Light 'Em All</p>
     </div>
-    </div>
+    </motion.div>
     </div>
   );
 }

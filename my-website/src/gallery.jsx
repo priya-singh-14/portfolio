@@ -16,13 +16,19 @@ import f1 from './assets/bed.jpg'
 import f2 from './assets/bleach.jpg'
 import f3 from './assets/duck.jpg'
 import f4 from './assets/lily.jpg'
-
+import {motion} from 'framer-motion';
 
 
 const Gallery = () => {
   return (
-  <div className='all-gallery'>
-  <Aura/>
+    <div><Aura/>
+  <motion.div 
+        className='all-gallery'
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, delay: 0.1 }}  /* Delayed entry */
+        >
+
   <div className='section'>
     <p>Webpages</p>
     <hr class="custom-hr" />
@@ -133,6 +139,7 @@ const Gallery = () => {
           </div>
           </div>
   </div>
+  </motion.div>
   </div>
   );
 };
