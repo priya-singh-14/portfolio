@@ -16,14 +16,24 @@ function Projects() {
   return (
     <div className='all-projects'>
      
-        <div className='heading'>
+     <motion.div 
+      className='heading'
+        initial={{ opacity: 0, y: 0 }}
+        animate={{ opacity: 1, y: 10 }}
+        transition={{ duration: 1, delay: 0.4 }}  /* Delayed entry */
+        >
         <div className='large'>
       <p>Projects </p>
       </div>
       <p>My collection of academic work and personal projects in full-stack development</p>
-      </div>
-      <hr class="custom-hr" />
-
+      </motion.div>
+      <motion.div 
+       initial={{ opacity: 0, y: 0 }}
+       animate={{ opacity: 1, y: 0 }}
+       transition={{ duration: 1, delay: 0.8 }}  /* Delayed entry */
+       >
+      <hr class="custom-hr" /> 
+      </motion.div>
       <motion.div 
       className='projects-grid'
         initial={{ opacity: 0, y: 20 }}
@@ -72,6 +82,7 @@ function Projects() {
     <p>Light 'Em All</p>
     </div>
     </motion.div>
+    <div className='filler'></div>
     </div>
   );
 }

@@ -21,7 +21,7 @@ import {motion} from 'framer-motion';
 
 const Gallery = () => {
   return (
-    <div><Aura/>
+    <div className='all'><Aura/>
   <motion.div 
         className='all-gallery'
         initial={{ opacity: 0, y: 20 }}

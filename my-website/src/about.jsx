@@ -41,9 +41,9 @@ const About = () => {
 
       <motion.div 
         className='btn-left'
-        initial={{ opacity: 0, y: 20 }}
+        initial={{ opacity: 0, y: 5 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1, delay: 0.1 }}  /* Delayed entry */
+        transition={{ duration: 1, delay: 0.4 }}  /* Delayed entry */
         >
    <a href="https://github.com/priya-singh-14" target="_blank" rel="noopener noreferrer">Github</a>
    
@@ -51,15 +51,23 @@ const About = () => {
 
    <motion.div 
         className='btn-right'
-        initial={{ opacity: 0, y: 20 }}
+        initial={{ opacity: 0, y: 5 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1, delay: 0.1 }}  /* Delayed entry */
+        transition={{ duration: 1, delay: 0.4 }}  /* Delayed entry */
         >
    <a href={resume} target="_blank" rel="noopener noreferrer">Resume</a>
    </motion.div>
 
+
    <div className='about-item'>
     
+
+   <motion.div 
+        className='about-img'
+        initial={{ opacity: 0, x: 0 }}
+        animate={{ opacity: 1, x: 10 }}
+        transition={{ duration: 1, delay: 0.4 }}  /* Delayed entry */
+        >
   <div className='about-img'>
     <div className="headshot-background" style={{
         background: `radial-gradient(circle at ${cursorPos.x}px ${cursorPos.y}px, ${colors.color1}, ${colors.color2})`
@@ -69,6 +77,7 @@ const About = () => {
       </div>
     </div>
   </div>
+  </motion.div>
 
   <motion.div
         className='about-text'
