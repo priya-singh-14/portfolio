@@ -14,7 +14,6 @@ import LightEm from './lem.jsx';
 
 function App() {
   return (
-    <div>
       <Router basename="/portfolio">
         <Navbar />
         <HomeButton />
@@ -30,8 +29,6 @@ function App() {
         <Route path="/lightemall" element={<LightEm />} /> {LightEm}
       </Routes>
     </Router>
-      
-    </div>
   );
 }
 
