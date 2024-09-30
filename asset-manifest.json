@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.c02605da.css",
-    "main.js": "/portfolio/static/js/main.8338db3f.js",
+    "main.js": "/portfolio/static/js/main.70705dc7.js",
     "static/media/w1.png": "/portfolio/static/media/w1.a6c8993e0e0a32923914.png",
     "static/media/bed.jpg": "/portfolio/static/media/bed.0878341f5d24882f5d52.jpg",
     "static/media/lily.jpg": "/portfolio/static/media/lily.43b3e3f8165a97964842.jpg",
@@ -26,7 +26,7 @@
     "static/media/u6.png": "/portfolio/static/media/u6.1684688996551ff264e4.png",
     "static/media/sv.png": "/portfolio/static/media/sv.15e1daf56a5c86f3434b.png",
     "static/media/lg.jpg": "/portfolio/static/media/lg.119b1a960538bc632e8f.jpg",
-    "static/media/resume.pdf": "/portfolio/static/media/resume.4a9b71ba42fe03997c55.pdf",
+    "static/media/resume_final.pdf": "/portfolio/static/media/resume_final.cc35b47d94677d255006.pdf",
     "static/media/u4.png": "/portfolio/static/media/u4.0c2a56d0316b12900f7f.png",
     "static/media/z2.png": "/portfolio/static/media/z2.d8f3f390d0ffb4279c0b.png",
     "static/media/l4.png": "/portfolio/static/media/l4.2dff71d4107086120888.png",
@@ -37,10 +37,10 @@
     "static/media/grey.jpg": "/portfolio/static/media/grey.acf90c41d81ebde7e9d5.jpg",
     "index.html": "/portfolio/index.html",
     "main.c02605da.css.map": "/portfolio/static/css/main.c02605da.css.map",
-    "main.8338db3f.js.map": "/portfolio/static/js/main.8338db3f.js.map"
+    "main.70705dc7.js.map": "/portfolio/static/js/main.70705dc7.js.map"
   },
   "entrypoints": [
     "static/css/main.c02605da.css",
-    "static/js/main.8338db3f.js"
+    "static/js/main.70705dc7.js"
   ]
 }
