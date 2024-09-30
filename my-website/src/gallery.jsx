@@ -61,7 +61,13 @@ const Gallery = () => {
         <img src={u1}></img>
         </div></div>
         <div className='gallery-text'>
-          <p>talk here</p>
+          <p style={{
+            fontFamily: 'Helvetica',
+            fontStyle: 'light',
+       fontSize: `1.4rem`,
+       color: '#666'
+      }}>
+            The Dream Diary is a fully designed mockup for a mobile app intended to improve the waking up experience of users. The app gamifies the waking up process by allowing users to log and track their dreams, which unlocks digital pet sheep. These pets can be cared for and bought items using a built-in currency that incentivizes use of the application. This project was made with three other students, with additional functionalities such as daily personalized songs inspired by sleep performance, a built-in store and upgraded spaces that are unlocked through continued use of the app. The UI is comprised of hand-drawn, sleep-inspired imagery and features a relaxing yet attention-catching pastel color scheme.</p>
           </div>
           </div>
 
@@ -120,7 +126,7 @@ const Gallery = () => {
       <img src={w2}></img>
     </div></div>
     <div className='gallery-text'>
-     <p>talk here</p>
+     <p>Designed and developed multiple webpages connected through responsive design for Amber Coffee Company using CSS/HTML.</p>
     </div>
     </div>
 
@@ -151,7 +157,7 @@ const Gallery = () => {
   <img src={w1}></img>
 </div></div>
 <div className='gallery-text'>
- <p>talk here</p>
+ <p>Landing page for a fictional coffee company inspired by Formula1 Racing. Built using CSS/HTML. </p>
 </div>
 </div>
 <hr class="custom-hr" />
@@ -167,7 +173,7 @@ const Gallery = () => {
         <img src={f1}></img>
         </div></div>
         <div className='gallery-text'>
-          <p>talk here</p>
+          <p><strong>"Awaiting You"</strong> Chalk Pastel on Toned Pastel Paper. 18x24.</p>
           </div>
           </div>
 
@@ -179,7 +185,7 @@ const Gallery = () => {
         <img src={f2}></img>
         </div></div>
         <div className='gallery-text'>
-          <p>talk here</p>
+        <p><strong>"Washed Out</strong> Chalk Pastel on Toned Pastel Paper. 18x24.</p>
           </div>
           </div>
 
@@ -191,7 +197,7 @@ const Gallery = () => {
         <img src={f3}></img>
         </div></div>
         <div className='gallery-text'>
-          <p>talk here</p>
+        <p><strong>"Out of Place"</strong> Chalk Pastel on Toned Pastel Paper. 18x24.</p>
           </div>
           </div>
 
@@ -203,7 +209,7 @@ const Gallery = () => {
         <img src={f4}></img>
         </div></div>
         <div className='gallery-text'>
-          <p>talk here</p>
+        <p><strong>"Reverie of Lilypads"</strong> Acrylic Paint on Canvas. 16x20 </p>
           </div>
           </div>
   </div>
