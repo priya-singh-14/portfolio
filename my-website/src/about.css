@@ -129,6 +129,7 @@ a {
 
   .hidden-text {
     font-size: 1.7rem;
+    font-style: italic;
     visibility: hidden; /* Hide the non-bold text initially */
     opacity: 0; /* Set the initial opacity to 0 for a smooth transition */
     transition: opacity 0.3s ease-in-out; /* Optional: add a transition for smooth fading */
