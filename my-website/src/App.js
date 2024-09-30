@@ -15,7 +15,7 @@ import LightEm from './lem.jsx';
 function App() {
   return (
     <div>
-      <Router>
+      <Router basename="/portfolio">
         <Navbar />
         <HomeButton />
       <Routes>
