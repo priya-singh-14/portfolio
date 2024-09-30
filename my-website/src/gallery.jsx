@@ -193,7 +193,7 @@ const Gallery = () => {
           <div className='gallery-bg' style={{
         background: `radial-gradient(circle at ${cursorPos.x}px ${cursorPos.y}px, ${colors.color1}, ${colors.color2})`,
       }}>
-      <div className='gallery-img-tall'>
+      <div className='gallery-img'>
         <img src={f3}></img>
         </div></div>
         <div className='gallery-text'>
@@ -205,7 +205,7 @@ const Gallery = () => {
           <div className='gallery-bg' style={{
         background: `radial-gradient(circle at ${cursorPos.x}px ${cursorPos.y}px, ${colors.color1}, ${colors.color2})`,
       }}>
-      <div className='gallery-img-tall'>
+      <div className='gallery-img'>
         <img src={f4}></img>
         </div></div>
         <div className='gallery-text'>
