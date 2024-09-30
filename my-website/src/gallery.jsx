@@ -173,7 +173,7 @@ const Gallery = () => {
         <img src={f1}></img>
         </div></div>
         <div className='gallery-text'>
-          <p><strong>"Awaiting You"</strong> Chalk Pastel on Toned Pastel Paper. 18x24.</p>
+          <p><strong>"Awaiting You"</strong> | Chalk Pastel on Toned Pastel Paper. 18x24.</p>
           </div>
           </div>
 
@@ -185,7 +185,7 @@ const Gallery = () => {
         <img src={f2}></img>
         </div></div>
         <div className='gallery-text'>
-        <p><strong>"Washed Out</strong> Chalk Pastel on Toned Pastel Paper. 18x24.</p>
+        <p><strong>"Washed Out</strong> | Chalk Pastel on Toned Pastel Paper. 18x24.</p>
           </div>
           </div>
 
@@ -197,7 +197,7 @@ const Gallery = () => {
         <img src={f3}></img>
         </div></div>
         <div className='gallery-text'>
-        <p><strong>"Out of Place"</strong> Chalk Pastel on Toned Pastel Paper. 18x24.</p>
+        <p><strong>"Out of Place"</strong> | Chalk Pastel on Toned Pastel Paper. 18x24.</p>
           </div>
           </div>
 
@@ -209,7 +209,7 @@ const Gallery = () => {
         <img src={f4}></img>
         </div></div>
         <div className='gallery-text'>
-        <p><strong>"Reverie of Lilypads"</strong> Acrylic Paint on Canvas. 16x20 </p>
+        <p><strong>"Reverie of Lilypads"</strong> | Acrylic Paint on Canvas. 16x20 </p>
           </div>
           </div>
   </div>
