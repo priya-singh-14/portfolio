@@ -3,7 +3,7 @@ import './about.css';
 import hs from './hs.JPG';
 import Header from './header';
 import { useEffect, useState } from 'react';
-import resume from './assets/resume.pdf';
+import resume from './assets/resume_final.pdf';
 import {motion} from 'framer-motion';
 
 const About = () => {
