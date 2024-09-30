@@ -11,8 +11,7 @@
 }
 
 .headshot-background {
-    background-color: rgb(160, 191, 234);
-    border-radius: 50px; 
+  background: radial-gradient(circle, rgba(255,255,255,0.2) 0%, rgba(0,0,0,0) 70%);    border-radius: 50px; 
     width: 450px;
     height: 600px;
     display: flex;
@@ -27,7 +26,7 @@
 a {
     width: 100%;
     text-decoration: none;
-    color: #666;
+    color: #272727;
     margin: 6px;
     text-align: center;
     font-size: 1.34rem;
@@ -35,6 +34,7 @@ a {
 
 .btn-left {
     position: absolute;
+    background-color: #dbdbdb;
     margin-top: 30px;
     left: 1260px;
     width: 80px;    
@@ -48,6 +48,7 @@ a {
 
   .btn-right {
     position: absolute;
+    background-color: #dbdbdb;
     margin-top: 30px;
     left: 1400px;
     width: 80px;    
@@ -75,8 +76,64 @@ a {
     background-color: #faf9f8; 
     border-radius: 50px; 
     width: auto;
-    height: 50px;
+    height: 30px;
     display: flex;
     margin: 40px;
   }
- 
+
+  .about-item {
+    display: flex;
+    align-items: center; /* Vertically aligns the text and image */
+    justify-content: space-between; /* Ensures space between the image and the text */
+  }
+  
+  .about-img {
+    flex: 1; /* This makes the image section take up one part of the available space */
+  }
+  
+  .about-text {
+    flex: 2; /* This makes the text section take up two parts of the available space */
+    padding-top: 50px;
+    padding-left: 90px; /* Adds space between the image and text */
+    font-size: 1.4rem;
+    margin: 20px;
+  }
+
+  .about-text p {
+    margin-bottom: 15px; /* Adds space between paragraphs */
+    line-height: 1.6; /* Adds space between lines within each paragraph */
+  }
+  
+  
+  .about-text p strong {
+    font-family: Helvetica, sans-serif;
+    font-weight: 230;
+    font-size: larger;
+    background-color: #d2d7dc; 
+    border-radius: 40px;
+    padding: 8px;
+  }
+
+  .about-text p strong:hover {
+    transform: font-size(1.04rem);
+    background-color: #c6d6ef; 
+    transition: 0.3s ease;
+    cursor: pointer;
+  }
+
+
+  .about-text:hover {
+    transform: font-size(1.04rem);
+  }
+
+  .hidden-text {
+    font-size: 1.7rem;
+    visibility: hidden; /* Hide the non-bold text initially */
+    opacity: 0; /* Set the initial opacity to 0 for a smooth transition */
+    transition: opacity 0.3s ease-in-out; /* Optional: add a transition for smooth fading */
+  }
+  
+  strong:hover + .hidden-text {
+    visibility: visible; /* Show the non-bold text on hover */
+    opacity: 1; /* Fade in the non-bold text */
+  }

@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import React, { useState } from "react";
 import './navbar.css'; 
+import {motion} from 'framer-motion';
 
 function Navbar() {
   const [contactText, setContactText] = useState("Contact");
@@ -26,7 +27,12 @@ function Navbar() {
   };
 
   return (
-    <div className="navbar">
+      <motion.div 
+      className="navbar"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, delay: 0.7 }}  /* Delayed entry */
+        >
       <div className="ellipse-background">
         <ul className="nav-links">
           <li><Link to="/about">About</Link></li>
@@ -38,7 +44,7 @@ function Navbar() {
           </li>
         </ul>
       </div>
-    </div>
+      </motion.div>
   );
 }
 

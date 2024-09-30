@@ -5,7 +5,7 @@ const Aura = () => {
   const [cursorPos, setCursorPos] = useState({ x: 0, y: 0 });
   const [colors, setColors] = useState({
     color1: 'rgba(255, 189, 199, 0.6)',
-    color2: 'rgba(0, 255, 26, 0.3)'
+    color2: 'rgba(0, 60, 255, 0.3)'
   });
 
   // Handle cursor position and change gradient
