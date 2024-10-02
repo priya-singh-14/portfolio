@@ -45,10 +45,12 @@ a {
     display: flex;
     transition: background-color 0.3s ease, transform 0.3s ease;
     z-index: 1000;
+    font-style: italic;
   }
 
   .btn-right {
     position: absolute;
+    font-style: italic;
     background-color: #dbdbdb;
     margin-top: 40px;
     left: 90%;
@@ -128,7 +130,7 @@ a {
   }
 
   .hidden-text {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     font-style: italic;
     visibility: hidden; /* Hide the non-bold text initially */
     opacity: 0; /* Set the initial opacity to 0 for a smooth transition */

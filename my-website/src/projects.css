@@ -10,7 +10,7 @@
   
   .all-projects .large p {
     color: #454545;
-    font-style: normal;
+    font-style: italic;
     font-size: 3.5rem;
     margin-bottom: 10px;
   }
@@ -100,6 +100,7 @@
 }
 
 .start p {
+  font-style: italic;
   margin-top: 60px;
   margin-left: auto;
   margin-right: auto;
@@ -176,6 +177,7 @@
 
 .all-gallery .section p {
   font-size: 3.05rem;
+  font-style: italic;
 }
 
 .gallery-item .gallery-text p {
