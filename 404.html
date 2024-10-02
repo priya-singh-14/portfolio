@@ -1,7 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; URL='./index.html?path=/' + encodeURIComponent(window.location.pathname)" />
+    <meta charset="UTF-8">
+    <script type="text/javascript">
+      var redirectTo = window.location.pathname;
+
+      // Redirect if the path doesn't match the basename (portfolio)
+      if (!redirectTo.startsWith("/portfolio") && redirectTo !== "/") {
+        window.location.replace("/portfolio/index.html?path=" + redirectTo);
+      }
+    </script>
   </head>
-  <body></body>
+  <body>
+    <h1>Page Not Found</h1>
+    <p>You will be redirected to the correct page shortly...</p>
+  </body>
 </html>
