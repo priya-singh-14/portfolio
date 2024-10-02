@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import React from 'react';
 import Navbar from './navbar.jsx';
 import About from './about.jsx';
@@ -18,19 +18,18 @@ function App() {
         <Navbar />
         <HomeButton />
       <Routes>
-        <Route path="/" element={<Header />} /> {}
-        <Route path="/about" element={<About />} /> {About}
-        <Route path="/projects" element={<Projects />} /> {Projects}
-        <Route path="/gallery" element={<Gallery />} /> {Gallery}
-        <Route path="/candy" element={<Candy />} /> {Candy}
-        <Route path="/stockview" element={<SV />} /> {SV}
-        <Route path="/minesweeper" element={<Minesweeper />} /> {Minesweeper}
-        <Route path="/ztype" element={<ZType />} /> {ZType}
-        <Route path="/lightemall" element={<LightEm />} /> {LightEm}
+        <Route path="/" element={<Header />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/candy" element={<Candy />} />
+        <Route path="/stockview" element={<SV />} />
+        <Route path="/minesweeper" element={<Minesweeper />} />
+        <Route path="/ztype" element={<ZType />} />
+        <Route path="/lightemall" element={<LightEm />} />
       </Routes>
     </Router>
   );
 }
-
 
 export default App;
